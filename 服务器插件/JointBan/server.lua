@@ -1,5 +1,7 @@
 local blacklist = ""
 local APIRequest = "https://raw.githubusercontent.com/JimWails/JointBan/master/BanData"
+local APTRetryTimes = 0
+local ShowUpdataInfo = true
 
 AddEventHandler("playerConnecting", function(name, reject, def)
 	local source	= source
@@ -41,7 +43,9 @@ function isBlacklisted(id)
 end
 
 function CheckVersion()
-	print("Checking version and blacklist...\n")
+	if ShowUpdataInfo then
+		print("Checking version and blacklist...\n")
+	end
 	local localversion = LoadResourceFile(GetCurrentResourceName(), "data/version.txt") or "1.0.0.0"
 	PerformHttpRequest(APIRequest .. "/version", function(err, rText, headers)
 		if err == 200 then
@@ -50,21 +54,40 @@ function CheckVersion()
 					if err2 == 200 then
 						SaveResourceFile(GetCurrentResourceName(), "data/version.txt", rText, -1)
 						SaveResourceFile(GetCurrentResourceName(), "data/blacklist.txt", rText2, -1)
-						print("Successfully updated blacklist")
-						print("New Database Version:" .. tostring(rText))
-						print("Plugin will check it again after 120s")
+						APTRetryTimes = 0
+						if ShowUpdataInfo then
+							print("Successfully updated blacklist")
+							print("New Database Version:" .. tostring(rText))
+							print("Plugin will check it again after 120s")
+						end
 					else
-						print("Failed to get blacklist")
-						print("Plugin will retry after 120s")
+						APTRetryTimes = APTRetryTimes + 1
+						if ShowUpdataInfo then
+							print("Failed to get blacklist")
+							print("Plugin will retry after 120s")
+						end
 					end
 				end)
 			else
-				print("Local data is up to date")
-				print("Plugin will check it again after 120s")
+				APTRetryTimes = 0
+				if ShowUpdataInfo then
+					print("Local data is up to date")
+					print("Plugin will check it again after 120s")
+				end
 			end
 		else
-			print("Failed to get version info")
-			print("Plugin will retry after 120s")
+			APTRetryTimes = APTRetryTimes + 1
+			if APTRetryTimes >= 3 then
+				APIRequest =  "https://www.kwfrb.club/BanData"
+				APTRetryTimes = 0
+				if ShowUpdataInfo then
+					print("API changed")
+				end
+			end
+			if ShowUpdataInfo then
+				print("Failed to get version info")
+				print("Plugin will retry after 120s")
+			end
 		end
 	end)
 end
