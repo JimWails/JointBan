@@ -15,7 +15,7 @@ AddEventHandler("playerConnecting", function(name, reject, def)
 	
 	for k,v in ipairs(GetPlayerIdentifiers(source))do
 		if isBlacklisted(GetPlayerIdentifiers(source)[1]) then
-			reject("国服联合封禁：此Steam ID因违反规定已被本服务器或其他服务器永久封禁，禁止加入本服务器. 如有误封，请联系插件管理员：QQ1142247734")
+			reject("国服联合封禁：此Steam ID因违反规定已被本服务器或其他服务器永久封禁，禁止加入本服务器.")
 			CancelEvent()
 			break
 		end
