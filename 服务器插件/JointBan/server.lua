@@ -4,7 +4,7 @@ local APTRetryTimes = 0
 local ShowUpdataInfo = true
 
 AddEventHandler("playerConnecting", function(name, reject, def)
-	local source	= source
+	local source = source
 	local steamID = GetSteamID(source)
 
 	if not steamID then
@@ -15,7 +15,7 @@ AddEventHandler("playerConnecting", function(name, reject, def)
 	
 	for k,v in ipairs(GetPlayerIdentifiers(source))do
 		if isBlacklisted(GetPlayerIdentifiers(source)[1]) then
-			reject("国服联合封禁：此Steam ID因违反规定已被本服务器或其他服务器永久封禁，禁止加入本服务器.")
+			reject("国服联合封禁：此Steam ID因违反规定已被本服务器或其他服务器永久封禁，禁止加入本服务器.(ID:" .. GetPlayerIdentifiers(source)[1] .. ")")
 			CancelEvent()
 			break
 		end
