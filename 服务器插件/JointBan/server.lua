@@ -1,6 +1,6 @@
 local blacklist = ""
 local rblacklist = ""
-local APIRequest = "http://api.kwfrb.club/BanData"
+local APIRequest = "https://raw.githubusercontent.com/JimWails/JointBan/master/BanData"
 local APTRetryTimes = 0
 
 local AutoCheckTime = 120 -- 可自行决定多久进行一次自动更新封禁数据的时间,默认120秒
@@ -117,7 +117,7 @@ function CheckVersion()
 		else
 			APTRetryTimes = APTRetryTimes + 1
 			if APTRetryTimes >= 3 then
-				APIRequest =  "https://www.kwfrb.club/BanData"
+				APIRequest =  "http://api.kwfrb.club/BanData"
 				APTRetryTimes = 0
 				if ShowUpdataInfo then
 					print("API changed")
