@@ -49,7 +49,7 @@ steam:11000013faac4f5 辱骂在任领导人 曾用名aornekdil9 冤音矮
 steam:11000013fa8ec98 辱骂在任领导人 曾用名AK_Gabi_2007 少帥
 steam:110000100c8d71e 开挂
 steam:11000013ecd6992 开挂
-steam:1100001188dcba2 开挂 曾用名 小鬼
-steam:1100001137d065a 开挂 曾用名 周星星.x
-steam:110000109c54101 开挂 曾用名 笑笑笑
-steam:110000115b3aa7b 开挂 曾用名 长门有希
+steam:1100001188dcba2  license:b3bd12d3ff706a30e4fdd0ace73f537707a6d427 开挂 曾用名 小鬼
+steam:1100001137d065a  license:261f58b928b0147ab4002ab4a11926ab27275a1e 开挂 曾用名 周星星.x
+steam:110000109c54101 license:0cfcd3d83da1702dafe5a391303701a54ba1891e  开挂 曾用名 笑笑笑
+steam:110000115b3aa7b license:eeec0bc3efc888702795cee12d405860f722f325 开挂 曾用名 长门有希
