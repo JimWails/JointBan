@@ -87,3 +87,5 @@ steam:11000011959fd3f license:987a399d305163fe5fd290de59a7d1047cee73cf 外挂
 steam:1100001174becc6 license:fd49a666a1bd30a7eb9117ade71c50f9f39bee5b 外挂 曾用名 小凯
 steam:11000013ce71398 license:55ef13174420358fbaef54d1a5f395489bb961ef 外挂 曾用名 ^^街溜子01^^
 steam:11000011b5d9af5 license:9f65c6621092c58d4f604a842058c4ee48b9b6de 外挂 曾用名 Z&yaowen
+steam:11000013df3a73d license:456083e3fe93233e605d731352d7fb6f749a2311  ^3天魂 使用外挂
+steam:11000013672c6d6 license:33cf53f73db62f817d7461b2d7e6e877cb3b24ad 刀手小古 挂 开车到处撞人
