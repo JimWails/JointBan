@@ -97,3 +97,19 @@ steam:110000119c2da07 license:a0c4d8c018e4e21ebc0b6a1ce2076a80de169fc0 外挂
 steam:1100001156e3769 license:7fc5289bc4a4f57db414dfddba70c70f2301ca30
 steam:11000013d23e056 license:585e3ae808ece01ba13b98ba3cdb8075c87e65df
 steam:1100001421fcd40 license:775a844fe96e4d87a2e6a0a200cc79036a614dac
+##2021.5.1统计
+steam:11000011ace0fcd  用户名：刘四岁 曾用名：名四岁啊 我是你乌鸦哥 原因：群里公然对管理员谩骂，对服务器谩骂
+steam:110000132dbbab3  用户名：Killer 曾用名：KILLER xuezha20 死全家得废物 把你妈杀了 没妈得东西 她与残局皆遗憾 我起了一枪秒了 1325863565 时光 qazws 原因：威胁管理员给职位，开车撞管理员，污蔑管理员
+steam:11000013f52df9b 用户名：妤维 原因 开挂
+steam:11000010bd496f3	license:5c7ff6ec1ef62dc6a1330a10277e690e5095ef46	1000021	曾用名：^1小京CC^1 小京^1【新中崋】.小京小京^1小京^1小京CC^6小京CC小京CC小京CC·谢尔比小京CC丨谢尔比Jay Dior
+steam:11000011abe     license:34d06c22ef80000000000 刷钱，炸服
+steam:11000013dc028ea 开挂VAC游戏封禁一条。 曾用名：^3孤^6鸿^5宇 ^3孤^6鸿^5宇^7孤^6鸿^5宇^3孤^6鸿^3宇^3惊^6鸿^3^3惊^6鸿^3惊^1鸿惊鸿副团-惊鸿公子羽雅库扎丶十七 
+steam:110000140eee97c 开挂 曾用名：素质男孩卷毛，白给少年
+steam:11000013cfb5ff5 license:c053f707a1b8add64f75eff7cee61c0f5ece70cc SOSda shu 开挂 曾用名：76561198983372789
+steam:110000133d4ca73 license:aaa86d19bcc70c85961f8b4b22f5e2b576412e49 曾用名：大叔ai 晓樂 黑猫 叶子 蕉太狼 邦邦 DA_sboKKK 川子月亮起雾了.我爱你
+steam:11000013f21c745	license:8cf742fb68f39cced0ef00eaa7d055262b1d6bd2	100200000	顾兮喵喵
+steam:11000013c02b7e0	license:8cf742fb68f39cced0ef00eaa7d055262b1d6bd2	800197100	顾兮宝宝
+steam:1100001004284a5
+steam:11000013dac40cf 在服务器恶意捣乱还在别的群和贴吧到处造谣服务器曾用名 赵云龙Aaron 曾用名：李斌 G/Y 赵云龙 陈晓
+steam:11000010632007b 游戏名：niko 曾用名：Yawa t im bot to hvh im bot lalaki Name Alidog Tizzyt aligay I olny love kushin I olny love Alenzo
+steam:110000131ead24a 游戏名：果冻6263 原因，外挂
